@@ -1,0 +1,22 @@
+.b_d1 {
+    height : 1200px;
+    padding-top: 70px;
+    background-position: center;
+}
+
+.b_d1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url("../Main/body_img/itemsearch_background.png");
+    background-size: cover;
+    /* opacity */
+    opacity: 0.7;
+  }
+
+  
+  
